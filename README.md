@@ -19,11 +19,7 @@ Atau anda juga bisa mengikuti langkah-langkah berikut untuk menginstall aplikasi
 composer install
 ```
 
-3. Install sanctum
-
-```
-php artisan install:api
-```
+3. Duplikat file .env.example dan ganti namanya menjadi .env
 
 4. Lakukan migrasi database
 
@@ -70,4 +66,28 @@ Terdapat beberapa role yang dapat mengakses ke resource ini, adapun akses yang d
 
 Untuk dapat mengakses api buku ini, masing-masing role harus melakukan login terlebih dahulu untuk mendapatkan token autentikasi.
 
+## Routes 
+Berikut adalah beberapa endpoint yang dapat digunakan untuk mengakses data buku.
 
+### Autentikasi
+1. **POST /api/login** : Melakukan Login.
+2. **POST /api/register** : Melakukan Register User.
+3. **POST /api/logout** : Melakukan Logout.
+
+### Database Buku
+1. **GET /api/books** : Mendapatkan semua data buku.
+2. **POST /api/books** : Menambahkan data buku baru.
+3. **PUT /api/books/{id}** : Melakukan update data buku.
+4. **DELETE /api/books/{id}** : Menghapus data buku.
+
+## Struktur Data Buku
+Berikut adalah struktur data buku yang digunakan dalam aplikasi ini.
+```
+{
+  "id": Unique Identifier,
+  "judul": string,
+  "penulis": string,
+  "tahun_terbit": integer,
+  "deskripsi": text
+}
+```
