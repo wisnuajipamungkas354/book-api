@@ -14,6 +14,8 @@ class BookController extends Controller
      */
     public function index()
     {
+        Gate::authorize('view', Book::class);
+
         return $this->sendResponse('Berhasil mengambil data', 200, Book::all());
     }
 

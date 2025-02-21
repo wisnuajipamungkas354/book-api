@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function (Request $request) {
     return response()->json([
         'status' => 'success',
-        'message' => 'Selamat Datang di API!'
+        'message' => 'Selamat Datang di Book API!'
     ]);
 });
 
