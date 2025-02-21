@@ -42,6 +42,11 @@ php artisan db:seed
 php artisan serve
 ```
 
+7. Melihat Endpoint yang tersedia
+```
+php artisan route:list
+```
+
 Adapun untuk awalan akun yang bisa anda gunakan untuk login adalah sebagai berikut :
 1. Akun Admin
 - email : admin@gmail.com
