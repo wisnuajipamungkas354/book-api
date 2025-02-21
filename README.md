@@ -55,4 +55,14 @@ Adapun untuk awalan akun yang bisa anda gunakan untuk login adalah sebagai berik
 - email : viewer@gmail.com 
 - password : viewer123
 
+## Role
+
+Terdapat beberapa role yang dapat mengakses ke resource ini, adapun akses yang dapat digunakan oleh masing-masing role yaitu :
+
+1. Admin : Dapat melakukan Create, Read, Update, dan Delete (CRUD) terhadap data buku.
+2. Editor : Hanya dapat melakukan Create dan Update terhadap data buku.
+3. Viewer : Hanya dapat melakukan Read terhadap data buku.
+
+Untuk dapat mengakses api buku ini, masing-masing role harus melakukan login terlebih dahulu untuk mendapatkan token autentikasi.
+
 
