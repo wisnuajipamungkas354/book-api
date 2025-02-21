@@ -8,7 +8,7 @@ Aplikasi ini dibuat menggunakan Laravel. Untuk fitur autentikasi menggunakan San
 
 ## Cara Menggunakan Book API
 
-Untuk menggunakan aplikasi ini, anda dapat melihat dokumentasi lengkap menggunakan [link berikut](https://kbi-intern-fullstack.postman.co/workspace/Team-Workspace~c4f952ee-843b-475a-897e-ba55f834b350/collection/42391783-a5fdd5b5-32a0-4075-ba0d-c441dca5f34d?action=share&creator=42391783&active-environment=42391783-bd8e973e-fdce-4a18-a7e6-628536f93335).
+Untuk menggunakan aplikasi ini, anda dapat melihat dokumentasi lengkap menggunakan [link berikut](https://wisnuajipamungkas.postman.co/workspace/Fullstack-Developer-Intern-Noxi~43b4c617-3aba-427f-9ab4-3c5b03e54ae4/collection/42391783-1dfa25b6-babd-44a2-9f54-d1cb5cda8f19?action=share&creator=42391783&active-environment=42391783-ec2a2cae-75bf-434d-a3fa-7497f5939ae4).
 
 Atau anda juga bisa mengikuti langkah-langkah berikut untuk menginstall aplikasi ini:
 
@@ -44,15 +44,15 @@ php artisan serve
 
 Adapun untuk awalan akun yang bisa anda gunakan untuk login adalah sebagai berikut :
 1. Akun Admin
-email : admin@gmail.com
-password : admin123 
+- email : admin@gmail.com
+- password : admin123 
 
 2. Akun Editor
-email : editor@gmail.com 
-password : editor123 
+- email : editor@gmail.com 
+- password : editor123 
 
 3. Akun Viewer
-email : viewer@gmail.com 
-password : viewer123
+- email : viewer@gmail.com 
+- password : viewer123
 
 
